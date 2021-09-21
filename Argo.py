@@ -5,7 +5,7 @@ import torch
 
 token = ''
 client = commands.Bot(command_prefix='>')
-channel = client.get_channel(276382339146317824)
+channel = client.get_channel()
 # GPT MODEL
 #tokenizer = AutoTokenizer.from_pretrained("Poly-Pixel/shrek-medium-full")
 #model = AutoModelForCausalLM.from_pretrained("Poly-Pixel/shrek-medium-full")

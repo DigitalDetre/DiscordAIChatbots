@@ -18,7 +18,7 @@ model_name = 'facebook/blenderbot_small-90M'
 tokenizer = BlenderbotSmallTokenizer.from_pretrained(model_name)
 model = BlenderbotSmallForConditionalGeneration.from_pretrained(model_name, use_cache=True)
 
-token = 'ODg2MDYzNDY1OTM5MjA2MTc0.YTwI6A.AqiVJe2rmbd5pwq1LQr9b1nKN-g'
+token = ''
 
 @tasks.loop(seconds=300.0)
 async def my_background_task(client):
