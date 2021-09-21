@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 from transformers import AutoModelForCausalLM, AutoTokenizer, BigBirdForQuestionAnswering, BigBirdTokenizer
 import torch
 
-token = 'ODgzMTMxNzIxODQ1OTY0ODMw.YTFegg.dU9FmJTlLUIFM55gzvREvJBeS3M'
+token = ''
 client = commands.Bot(command_prefix='>')
 channel = client.get_channel(276382339146317824)
 # GPT MODEL
